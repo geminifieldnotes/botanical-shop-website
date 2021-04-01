@@ -1,0 +1,56 @@
+[
+	{
+		"plant_image": "images/CactusA.jpg",
+		"plant_name": "Blue Flame Cactus",
+		"category": "Cactus",
+		"description": "An excellent cactus for growing indoors on a windowsill or patio. It grows quickly for up to 12 inches. The blue pigment gets brighter as it olds! "
+	},
+	{
+		"plant_image": "images/CactusB.jpg",
+		"plant_name": "Claret Cup Cactus",
+		"category": "Cactus",
+		"description": "A desert dweller that grows in gravel soil. Claret cup hedgehog cactus is a desert beaut for warm, arid climate gardeners."
+	},
+	{
+		"plant_image": "images/CactusC.jpg",
+		"plant_name": "Golden Barrel Cactus",
+		"category": "Cactus",
+		"description": "A specimen which grows rounded, much like a barrel, up to 3 ft. tall and around. Although enticing, be wary of its stiff yellow needles as they may prick."
+	},
+	{
+		"plant_image": "images/HerbA.jpg",
+		"plant_name": "Oregano",
+		"category": "Herb",
+		"description": "An essential to any culinary herb garden for its many uses in varied cuisines. It is easy to grow, ideal for the cook/gardener in you!"
+	},
+	{
+		"plant_image": "images/HerbB.jpg",
+		"plant_name": "Stevia",
+		"category": "Herb",
+		"description": "Whether you want to extract your own healthy sugar or add sweet herbalness to your tea, stevia will offer it to you with its sweet leaves!"
+	},
+	{
+		"plant_image": "images/HerbC.jpg",
+		"plant_name": "Plantain",
+		"category": "Herb",
+		"description": "Plant care requires well-draining soil, hefty dose of watering, and protection from wind or frost. In 4 to 8 months, it will bear fruits for your hardwork."
+	},
+	{
+		"plant_image": "images/SucculentA.jpg",
+		"plant_name": "Hens-and-Chicks",
+		"category": "Succulent",
+		"description": "It is an alpine plant, meaning it has great tolerance with poor soils and unwelcoming conditions. It is not only pleasant to the eyes, but also comes with little commitment!"
+	},
+	{
+		"plant_image": "images/SucculentB.jpg",
+		"plant_name": "Ponytail Palm",
+		"category": "Succulent",
+		"description": "The bright touch it adds to indoors comes from its neediness of sunlight. They are best placed in sunny rooms or warm outdoors."
+	},
+	{
+		"plant_image": "images/SucculentC.jpg",
+		"plant_name": "Zebra Haworthia",
+		"category": "Succulent",
+		"description": "It is known for its signature dark-green and white zebra-striping. It is fairly easy to grow and propagate if given regular dose of water and care."
+	}
+]

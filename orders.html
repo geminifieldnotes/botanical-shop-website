@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Crimson+Text&family=Poiret+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="LeBotanical.css">
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<script src="orders.js"></script>
+	<title>Le Botanical: Order Form</title>
+</head>
+<body>
+	<header id="main-header">
+		<!-- IMG BACKGROUND, TEXT LAYOUT, UNIFORM ON ALL WEB PAGES -->
+		<h1>Le Botanical</h1>
+		<h4>Cacti &#8226; Herbs &#8226; Succulents</h4>
+	</header>
+
+	<div id="deals">
+		<h3>Visit our Mid-Summer Season Deals  +  FREE Kitchen Herb for All Orders!</h3>
+	</div>
+
+	<nav id="main-nav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="plant_collection.html">Plant Collection</a></li>
+			<li><a href="plant_picker.html">Plant Picker</a></li>
+			<li><a class="active" href="orders.html">Your Orders</a></li>
+			<li><a href="about.html">About Us</a></li>
+		</ul>
+	</nav>
+		
+	<section id="Menu">
+		<div id="phrase">
+			<h2>Le Botanical</h2>
+			<h4>We grow a garden waiting for you.</h4>
+
+			<p>Bring home plants from us, we feel they will be in good hands!</p>
+			
+
+	<section id="Order_section">
+		<form  id="form" action="index.html" method="get">
+			<h2>Order Form</h2>
+			<fieldset>
+				<div>
+					<label for="nameInput">Name: </label><br>
+					<input type="text" name="name" id="nameInput" placeholder="Enter name"><br>
+				</div>
+					<span id="nameInput_error" class="error">* Required field</span>
+			
+				<div>
+					<label for="telInput">Phone Number: </label><br>
+					<input type="tel" name="phoneNumber" id="telInput" placeholder="Enter 10-digit number"><br>
+				</div>
+					<span id="telInput_error" class="error">* Required field</span>
+					<span id="invalidNumber_error" class="error">* Must be a 10-digit number</span>
+				
+				<div>
+					<label for="emailInput">Email: </label><br>
+					<input type="text" name="email" id="emailInput" placeholder="Enter a valid email"><br>
+				</div>
+					<span id="emailInput_error" class="error">* Required field</span>
+					<span id="invalidEmail_error" class="error">* Invalid email address</span>
+				
+				<div>
+					<label for="feedbackInput">Feedback: </label><br>
+					<textarea id="feedbackInput" rows="10" cols="70"></textarea><br>
+				</div>
+
+				<div>
+					<button id="resetButton" type="button" onclick="clearData()">Reset</button>
+					<button id="submitButton" type="submit">Submit</button>
+				</div>
+			</fieldset>
+		</form>
+		<img src="images/HeaderC.jpg" alt="herbs">
+	</section>
+
+			<p>Purchasing from us does not end there. If you seek for tips or professional advice in improving your gardening procedures, feel free to reach us. We are in business to help your plants grow!</p>
+		</div>
+	</section>
+	<footer>
+		<ul class="footer-info">
+			<li>LE BOTANICAL</li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="#">Careers</a></li>
+		</ul>
+		<ul class="footer-info">
+			<li>CONTACT US</li>
+			<li><a href="plant_picker.html">Customer Service</a></li>
+			<li><a href="plant_collection.html">Store Locations</a></li>
+			<li><a href="#">Trade Appointment</a></li>
+		</ul>
+		<ul class="footer-info">
+			<li>YOUR ACCOUNT</li>
+			<li><a href="orders.html">Your Orders</a></li>
+			<li><a href="#">Order History</a></li>
+			<li><a href="#">Gift Cards</a></li>
+		</ul>
+		<hr>
+		<ul class="socmed-info">
+			<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+			<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+			<li><a href="#"><i class="fab fa-github-square"></i></a></li>
+			<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+		</ul>
+	</footer>
+</body>
+</html>
